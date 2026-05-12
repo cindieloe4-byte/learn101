@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project1</title>
+    <link rel="stylesheet" href="./project1.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#signup">Sign-Up</a>
+            <a href="#location">Location</a>
+        </nav>
+        <h1>Community Tech Event</h1>
+        <p>A beginner friendly event learning HTML.</p>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <p>This event is designed for beginners to learn the basics of HTML and web development. Whether you're looking to start a new hobby or kickstart a career in tech, this event is for you!</p>
+        </section>
+        <section id="schedule">
+            <h2>Schedule</h2>
+            <ul>
+                <li>10:00 AM - Introduction to HTML</li>
+                <li>11:00 AM - Hands-on Coding Session</li>
+                <li>12:00 PM - Lunch Break</li>
+                <li>1:00 PM - Building Your First Web Page</li>
+                <li>2:00 PM - Q&A and Networking</li>
+            </ul>
+        </section>
+        <section id="signup">
+            <h2>Sign-Up</h2>
+            <p>To sign up for the event, please fill out the form below:</p>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <section id="location">
+            <h2>Location</h2>
+            <p>The event will be held at the Community Center, 123 Main Street, Anytown.</p>
+        </section>
+    </main>
+</body>
+</html>
